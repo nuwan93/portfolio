@@ -5,11 +5,13 @@ import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
+import { BiLogoUpwork } from "react-icons/bi";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import me from "@/public/me.png";
+import Typewriter from "typewriter-effect";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -75,15 +77,23 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Ricardo.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">8 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        <span className="font-semibold">Hello, I'm Nuwan.</span> I'm a{" "}
+        <span className="font-bold">
+          <Typewriter
+            options={{
+              strings: ["software developer", "freelancer", "team leader"],
+              autoStart: true,
+              loop: true,
+            }}
+          />
+        </span>{" "}
+        with diverse experience across{" "}
+        <span className="italic">multiple tech domains.</span> I love
+        <span className="font-semibold"> solving problems.</span>{" "}
       </motion.h1>
 
       <motion.div
-        className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
+        className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
@@ -113,15 +123,23 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-slate-700 hover:text-slate-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/nuwan-wickramarachchi-a193a9151/"
           target="_blank"
         >
           <BsLinkedin />
         </a>
 
         <a
+          className="bg-white p-4 text-slate-700 hover:text-slate-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          href="https://www.upwork.com/freelancers/~010dce4fada3c6da88"
+          target="_blank"
+        >
+          <BiLogoUpwork />
+        </a>
+
+        <a
           className="bg-white p-4 text-slate-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-slate-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com"
+          href="https://github.com/nuwan93"
           target="_blank"
         >
           <FaGithubSquare />
