@@ -19,30 +19,30 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+        In my career, I have enjoyed roles such as{" "}
+        <span className="font-medium">leading the Support Team</span> at Pirsee,{" "}
+        <span className="font-medium">teaching</span> at the Sri Lanka Institute
+        of Information Technology and{" "}
+        <span className="font-medium">software development</span> at Pension
+        Department. My education, with a{" "}
+        <span className="italic">
+          Bachelor's in IT and a Master's in Information Systems
+        </span>{" "}
+        underway, has been a great support in my work. What excites me most
+        about programming is solving tricky problems,{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+          there's nothing quite like the satisfaction of cracking a tough
+          challenge.
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        When I step away from the screen, I{" "}
+        <span className="font-medium">spend time with my dog</span>, whose
+        playful energy is a source of joy. I also keep fit with{" "}
+        <span className="font-medium">regular gym sessions.</span> These
+        activities are not just hobbies; they recharge me, bringing balance and
+        fresh energy to my professional life.
       </p>
     </motion.section>
   );

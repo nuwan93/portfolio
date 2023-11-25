@@ -2,9 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import pcrqaImg from "@/public/pce-qa.png";
+import scrapyImg from "@/public/scrapy.png";
+import pdfToJsonImg from "@/public/pdf-json.png";
+import { GoOrganization } from "react-icons/go";
 
 export const links = [
   {
@@ -24,8 +25,8 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Experience",
-    hash: "#experience",
+    name: "Timeline",
+    hash: "#timeline",
   },
   {
     name: "Contact",
@@ -35,52 +36,74 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Bsc (Hons) Degree In Information Technology",
+    location: "Sri Lanka Institute of Information Technology",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "This degree provided a strong foundation in both theoretical and practical aspects of information technology.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2014 - 2018",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Software Engineer (Intern)",
+    location: "Department of Pensions",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "I specialized in developing standalone applications using JavaFX. This role involved not only building but also deploying these applications.",
+    icon: React.createElement(GoOrganization),
+    date: "2016 - 2017",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Instructor",
+    location: "Sri Lanka Institute of Information Technology",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I conducted practical lab sessions, marked assignments, and evaluated student projects, contributing significantly to the hands-on learning and assessment of students.",
+    icon: React.createElement(GoOrganization),
+    date: "2018",
+  },
+  {
+    title: "Head, Support Team And Software Developer",
+    location: "AssetOwl/ Pirsee",
+    description:
+      "I led the support team and contributed as a Software Developer, implementing code scripts using Python and collaborating on React projects. My responsibilities also included overseeing customer data onboarding.",
+    icon: React.createElement(GoOrganization),
+    date: "2020 - 2023",
+  },
+  {
+    title: "Msc In Information Systems",
+    location: "University of Jyväskylä",
+    description:
+      "I am deepening my understanding of advanced IT concepts and systems analysis. This program is equipping me with cutting-edge skills and knowledge,",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "PCR-QA",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "A web application for handling property inspection data. It enables efficient editing, organization, and quality assurance of JSON files,",
+    tags: ["React", "TypeScript", "Redux", "Semantic UI", "Netlify"],
+    imageUrl: pcrqaImg,
+    code: "https://github.com/nuwan93/pcr-qa/tree/main",
+    demo: "https://pcr-qa.netlify.app/",
   },
   {
-    title: "rmtDev",
+    title: "Web Scraper",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "A web scraping solution, that extract and uploads data, ensuring a effective onboarding process.",
+    tags: ["Python", "Scrapy", "SQLite", "Playwright"],
+    imageUrl: scrapyImg,
+    code: "https://github.com/nuwan93/inspection-manager/tree/main",
+    demo: null,
   },
   {
-    title: "Word Analytics",
+    title: "PDF/ CSV to JSON",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "An app that converts PDF and Excel files into a predefined JSON format.",
+    tags: ["Python", "openpyxl", "pymongo", "Excel macro"],
+    imageUrl: pdfToJsonImg,
+    code: "https://github.com/nuwan93/PDF-to-JSON/tree/main",
+    demo: null,
   },
 ] as const;
 
@@ -90,12 +113,14 @@ export const skillsData = [
   "JavaScript",
   "TypeScript",
   "React",
-  "Git",
   "Tailwind",
   "Framer Motion",
-  "MongoDB",
   "Redux",
   "Python",
   "Scrapy",
   "Playwright",
+  "Git",
+  "AWS",
+  "SQLite",
+  "MongoDB",
 ] as const;
