@@ -34,7 +34,7 @@ export default function Contact() {
       <p className="text-slate-700 -mt-6 dark:text-white/80">
         Please contact me directly at{" "}
         <a className="underline" href="mailto:nuwanwick99@gmail.com">
-          nuwanwick99@gmail.com
+          contact@nuwanwick.dev
         </a>{" "}
         or through this form.
       </p>
