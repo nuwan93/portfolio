@@ -116,6 +116,8 @@ export const skillsData = [
   "Tailwind",
   "Framer Motion",
   "Redux",
+  "Node",
+  "Express",
   "Python",
   "Scrapy",
   "Playwright",

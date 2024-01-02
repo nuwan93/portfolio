@@ -10,6 +10,8 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import { FaHackerrank } from "react-icons/fa";
+import { FaStackOverflow } from "react-icons/fa";
 import me from "@/public/me.png";
 import Typewriter from "typewriter-effect";
 
@@ -129,7 +131,13 @@ export default function Intro() {
           >
             <BsLinkedin />
           </a>
-
+          <a
+            className="bg-white p-4 text-slate-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-slate-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+            href="https://github.com/nuwan93"
+            target="_blank"
+          >
+            <FaGithubSquare />
+          </a>
           <a
             className="bg-white p-4 text-slate-700 hover:text-slate-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
             href="https://www.upwork.com/freelancers/~010dce4fada3c6da88"
@@ -137,13 +145,19 @@ export default function Intro() {
           >
             <BiLogoUpwork />
           </a>
-
           <a
-            className="bg-white p-4 text-slate-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-slate-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-            href="https://github.com/nuwan93"
+            className="bg-white p-4 text-slate-700 hover:text-slate-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+            href="https://stackoverflow.com/users/20621894/nuwan-wickramarachchi?tab=profile"
             target="_blank"
           >
-            <FaGithubSquare />
+            <FaStackOverflow />
+          </a>
+          <a
+            className="bg-white p-4 text-slate-700 hover:text-slate-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+            href="https://www.hackerrank.com/profile/nuwanwick99"
+            target="_blank"
+          >
+            <FaHackerrank />
           </a>
         </div>
       </motion.div>
