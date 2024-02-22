@@ -83,7 +83,12 @@ export default function Intro() {
         <span className="font-bold">
           <Typewriter
             options={{
-              strings: ["software developer", "freelancer", "team leader"],
+              strings: [
+                "support engineer",
+                "software developer",
+                "freelancer",
+                "team leader",
+              ],
               autoStart: true,
               loop: true,
             }}
