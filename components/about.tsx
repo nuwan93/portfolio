@@ -20,9 +20,11 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
         In my career, I have enjoyed roles such as{" "}
-        <span className="font-medium">leading the Support Team</span> at Pirsee,{" "}
-        <span className="font-medium">teaching</span> at the Sri Lanka Institute
-        of Information Technology and{" "}
+        <span className="font-medium">
+          leading the data onboarding team & providing technical support
+        </span>{" "}
+        at Pirsee, <span className="font-medium">teaching</span> at the Sri
+        Lanka Institute of Information Technology and{" "}
         <span className="font-medium">software development</span> at Pension
         Department. My education, with a{" "}
         <span className="italic">

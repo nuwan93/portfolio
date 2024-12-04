@@ -60,10 +60,10 @@ export const experiencesData = [
     date: "2018",
   },
   {
-    title: "Head, Support Team And Software Developer",
+    title: "Support Engineer & Head of Data Onboarding",
     location: "AssetOwl/ Pirsee",
     description:
-      "I led the support team and contributed as a Software Developer, implementing code scripts using Python and collaborating on React projects. My responsibilities also included overseeing customer data onboarding.",
+      "As the Support Engineer & Head of Data Onboarding at Pirsee, I provided high-quality technical support to customers and led the data onboarding process. I was responsible for building and improving the data onboarding workflow, creating a platform to streamline this process, and automating repetitive tasks. My role also included leading a data team of around 8 people, where I took charge of recruiting and training new team members to ensure efficient data management and excellent support services.",
     icon: React.createElement(GoOrganization),
     date: "2020 - 2023",
   },
